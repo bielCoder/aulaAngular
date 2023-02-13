@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aulaAngular';
+  userName = 'Joaquim';
+  userData = {
+    email: "gabriel@gmail.com",
+    role: "Admin"
+  };
 }
